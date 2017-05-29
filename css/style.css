@@ -1,0 +1,266 @@
+    @import url('https://fonts.googleapis.com/css?family=Anton');
+    /*++++++++++IPHONE 6++++++++++++*/
+
+    body {
+        background-color: orange;
+    }
+
+    .wrapper {
+        z-index: 1;
+        background-color: #e8461e;
+        height: 33vh;
+        margin: 221px -11px 0px -11px
+    }
+
+    .boneMain {
+        margin-top: 50px;
+        margin: auto;
+        width: 310px;
+    }
+
+    .boneMain img {
+        width: 100%;
+        margin-top: 31px;
+    }
+    /*.pawWrapper {
+        display: flex;
+        justify-content: left
+        
+    }*/
+
+    .paw1,
+    .paw2,
+    .paw3 {
+        width: 75px;
+        transform: rotate(-20deg);
+    }
+
+    .paw1 {
+        position: fixed;
+        top: 35px;
+        left: 35px;
+    }
+
+    .paw2 {
+        position: fixed;
+        top: 85px;
+        left: 145px;
+    }
+
+    .paw3 {
+        z-index: -1;
+        position: fixed;
+        top: 205px;
+        left: 65px;
+    }
+
+    .paw4,
+    .paw5,
+    .paw6 {
+        width: 75px;
+        transform: rotate(21deg);
+    }
+
+    .paw4 {
+        z-index: -1;
+        position: fixed;
+        top: 435px;
+        left: 105px;
+    }
+
+    .paw5 {
+        position: fixed;
+        top: 528px;
+        left: 175px;
+    }
+
+    .paw6 {
+        position: fixed;
+        top: 605px;
+        left: 45px;
+    }
+
+    .boneMain p {
+        margin-top: -115px;
+        text-align: center;
+        letter-spacing: 2px;
+        color: #ffe2d4;
+        text-shadow: 3px 3px #7f716a;
+        font-family: anton;
+        font-size: 54px;
+    }
+    /*+++++++++++IPAD+++++++++++*/
+    /* {
+    border: 1px solid black;
+}*/
+
+    @media ( min-width: 600px) {
+        .wrapper {
+            z-index: 1;
+            background-color: #e8461e;
+            height: 330px;
+            margin: 327px -11px 0px -11px;
+        }
+        .boneMain {
+            width: 600px;
+        }
+        .boneMain img {
+            margin-top: 12px;
+        }
+        .paw1,
+        .paw2,
+        .paw3 {
+            width: 100px;
+        }
+        .paw1 {
+            position: fixed;
+            top: 35px;
+            left: 35px;
+        }
+        .paw2 {
+            position: fixed;
+            top: 85px;
+            left: 286px;
+        }
+        .paw3 {
+            z-index: -1;
+            position: fixed;
+            top: 287px;
+            left: 138px;
+        }
+        .paw4,
+        .paw5,
+        .paw6 {
+            width: 100px;
+            transform: rotate(21deg);
+        }
+        .paw4 {
+            z-index: -1;
+            position: fixed;
+            top: 600px;
+            left: 105px;
+        }
+        .paw5 {
+            position: fixed;
+            top: 785px;
+            left: 275px;
+        }
+        .paw6 {
+            position: fixed;
+            top: 875px;
+            left: 45px;
+        }
+        .boneMain p {
+            text-align: center;
+            margin-top: -231px;
+            letter-spacing: 2px;
+            color: #ffe2d4;
+            text-shadow: 3px 3px #7f716a;
+            font-family: anton;
+            font-size: 123px;
+        }
+    }
+    /*+++++++++FULL SCREEN++++++++++*/
+
+    @media (min-width: 800px) {
+        * {
+            /*border: 1px solid black;*/
+        }
+        .wrapper {
+            z-index: 1;
+            background-color: #e8461e;
+            width: 101%;
+            height: 33%;
+            margin: 265px -11px 0px -11px;
+            /*display: flex;*/
+            /*justify-content: center;*/
+            /*flex-direction: column;*/
+        }
+        .boneMain {
+            width: 500px;
+        }
+        .boneMain img {
+            margin-top: 25px;
+        }
+        /*.topPaws{  
+            border: 1px solid black;          
+            width: 1000px;
+            margin: 0 auto
+            height: 66vh;
+            display: inline-flex;
+            justify-content: space-between;
+            flex-direction: row;
+        }*/
+        .paw1,
+        .paw2,
+        .paw3 {
+            display: none;
+            z-index: -1;
+            width: 155px;
+            transform: rotate(-80deg);
+        }
+        .paw1 {
+            position: fixed;
+            top: -51px;
+            left: 35px;
+        }
+        .paw2 {
+            position: fixed;
+            top: 35px;
+            left: 1250px;
+        }
+        .paw3 {
+            margin-top: -45px;
+            margin-left: 495px
+        }
+        .paw4,
+        .paw5,
+        .paw6 {
+            display: none;
+            z-index: -1;
+            width: 155px;
+            transform: rotate(80deg);
+        }
+        .paw4 {
+            position: fixed;
+            top: 655px;
+            left: 35px;
+        }
+        .paw5 {
+            position: fixed;
+            top: 755px;
+            left: 638px;
+        }
+        .paw6 {
+            position: fixed;
+            top: 560px;
+            left: 1250px;
+        }
+        /*.wrapper * {
+        border: 1px solid black
+    }*/
+        button {
+            cursor: pointer;
+            position: relative;
+            top: -113px;
+            left: 148px;
+            border:none;
+            
+            
+        }
+
+        button:focus {
+            height: 0px;
+            outline: 0;
+        }
+        .boneMain p {
+
+            /*background-color: #ffe2d4;*/
+            text-align: center;
+            letter-spacing: 2px;
+            color: #ffe2d4;
+            text-shadow: 3px 3px #7f716a;
+            font-family: anton;
+            font-size: 91px;
+        }
+    }
